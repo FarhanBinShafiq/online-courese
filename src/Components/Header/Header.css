@@ -1,0 +1,33 @@
+.header-container{
+background-color: rgb(30, 131, 219);
+    height: auto;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
+    padding-bottom: 120px;
+}
+/* logo title style  */
+.logo-title{
+    font-family: 'Akronim', cursive;
+    letter-spacing: 1.5px;
+}
+.logo-frist-letter{
+    color: rgb(152, 10, 218);
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+/* nav bar style  */
+.nav-bar{
+    margin-left: 230px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.2em;
+    margin: 0px 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.6s ease-in;
+}
+.nav-link:hover{
+    border-bottom: 2px solid tomato;
+    color: tomato !important;
+}
+/* banner container style  */
